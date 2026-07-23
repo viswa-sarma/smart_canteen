@@ -43,3 +43,41 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# VS Code
+.vscode/
+
+# Android
+android/.gradle/
+android/local.properties
+android/captures/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+
+# macOS
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Generated plugin files
+.flutter-plugins
+Generated.xcconfig
+
+# Firebase (if generated)
+firebase_app_id_file.json
+
+# Environment files
+.env
+.env.*
+
+# Flutter version manager (if you use FVM)
+.fvm/
